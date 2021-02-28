@@ -5,6 +5,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+p,h1,h2,h3,h4,h5,h6,span{
+    color: #fff;
+}
+
 body{
     min-height: 100vh;
     background-color: #121313;
@@ -68,11 +72,100 @@ header ul li a {
 }
 
 .banner{
-    margin: 150px;
+    margin: 100px 76px 80px 75px;
 }
 
-.banner img{
+.banner .index-banner{
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #000;
+}
+
+.grid-cards{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.card .card-logo{
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.card .card-logo:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.page{
+    margin: 150px;
+}
+
+footer > p {
+    color: #fff;
+    text-align: center;
+}
+
+.stats-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+.stats-text{
+    margin-bottom: 10px;
+}
+
+.profile-image{
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.question-cards{
+    display: grid;
+    max-width: 100%;
+    margin-top: 75px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-column-gap: 20px;
+}
+
+.question-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.question-card > p,h2{
+    font-size: 20px;
+    color: #121313;
+    margin: 20px 0px;
+}
+
+.question-card > img{
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
 }
