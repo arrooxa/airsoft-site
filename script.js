@@ -5,9 +5,6 @@ const profileImage = document.querySelector('.profile-image');
 const closeIcon = document.querySelector('.close-icon');
 const page = document.querySelector('.page');
 const imageFocus = document.querySelector('.click-function');
-const dataAirsoft = require('data.js');
-
-console.log(dataAirsoft);
 
 
 window.addEventListener('scroll', () => {
