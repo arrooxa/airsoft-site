@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 p,h1,h2,h3,h4,h5,h6,span{
@@ -110,7 +110,7 @@ header ul li a {
 }
 
 .page{
-    margin: 150px;
+    margin: 100px 25px;
 }
 
 footer > p {
@@ -128,10 +128,16 @@ footer > p {
     width: 50%;
     margin: auto;
     padding: 30px;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .stats-text{
     margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#first{
+    font-size: 30px;
 }
 
 .profile-image{
@@ -139,13 +145,17 @@ footer > p {
     max-height: 300px;
     margin-bottom: 30px;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-image:hover{
+    border: 3px solid rgb(186, 85, 211);
 }
 
 .question-cards{
     display: grid;
-    max-width: 100%;
     margin-top: 75px;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-column-gap: 20px;
 }
 
@@ -168,4 +178,30 @@ footer > p {
     width: 150px;
     border-radius: 50%;
     height: 150px;
+
+}
+
+.click-function{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    display: none;
+}
+
+.close-icon{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    z-index: 9999;
+    top: 100px;
+    left: 90%;
+}
+
+.image-expanded{
+    position: fixed;
+    z-index: 99999;
+    width: 600px;
+    height: 600px;
+    top: 100px;
+    right: 30%;
 }

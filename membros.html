@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airsoft!</title>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="click-function">
+        <img class="close-icon" src="images/close-icon.png" alt="Close Icon" srcset="">
+        <img class="image-expanded" src="images/profile-images/vitor-rocha.jpg" alt="Expanded Image" srcset="">
+    </div>
+
+    <div class="page">
     <header>
         <a href="index.html" class="logo">AIRSOFT!</a>
         <ul>
@@ -22,12 +29,10 @@
 
         <div class="stats-flex">
             <img class="profile-image" src="images/profile-images/vitor-rocha.jpg" alt="Profile Image" srcset="">
-            <p class="stats-text">Vitor Rocha Cambuí</p>
+            <p class="stats-text" id="first">Vitor Rocha Cambuí</p>
             <p class="stats-text">1.75cm</p>
             <p class="stats-text">Santista</p>
         </div>
-
-    </div>
 
     <div class="question-cards">
         <div class="question-card">
@@ -59,10 +64,12 @@
 
     </section>
 
-<footer>
-    <p>&copy; Vitor Rocha Cambuí - 2021</p>
-</footer>
+    <footer>
+        <p>&copy; Vitor Rocha Cambuí - 2021</p>
+    </footer>
+    </div>  
 
 <script src="script.js"></script>
+<script src="data.js"></script>
 </body>
 </html>
