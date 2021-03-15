@@ -6,65 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airsoft!</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 <body>
-    <div class="click-function">
-        <img class="close-icon" src="images/close-icon.png" alt="Close Icon" srcset="">
-        <img class="image-expanded" src="images/profile-images/vitor-rocha.jpg" alt="Expanded Image" srcset="">
-    </div>
-
-    <div class="page">
     <header>
-        <a href="index.html" class="logo">AIRSOFT!</a>
+        <a href="/index.html" class="logo">AIRSOFT!</a>
         <ul>
-            <li><a href="#">MEMBROS</a></li>
-            <li><a href="#">JOGOS</a></li>
-            <li><a href="#">SOBRE</a></li>
+            <li><a href="/membros.html">MEMBROS</a></li>
+            <li><a href="/jogos.html">JOGOS</a></li>
+            <li><a href="/sobre.html">SOBRE</a></li>
         </ul>
     </header>
 
-    <section class="page">
-
-        <div class="stats-flex">
-            <img class="profile-image" src="images/profile-images/vitor-rocha.jpg" alt="Profile Image" srcset="">
-            <p class="stats-text" id="first">Vitor Rocha Cambuí</p>
-            <p class="stats-text">1.75cm</p>
-            <p class="stats-text">Santista</p>
-        </div>
-
-    <div class="question-cards">
-        <div class="question-card">
-            <h2 class="form-question">Data de Nascimento?</h2>
-            <img src="images/calendar.webp" alt="Calendar Image">
-            <p class="birthday">27/08/2001</p>
-        </div>
-        <div class="question-card">
-            <h2 class="form-question">Cor favorita?</h2>
-            <img src="images/profile-images/colors/ba55d3.png" alt="Color Image">
-            <p class="color">Orquídea-média</p>
-        </div>
-        <div class="question-card">
-            <h2 class="form-question">Comida favorita?</h2>
-            <img src="images/profile-images/foods/salsicha.jpg" alt="Food Image">
-            <p class="food">Salsicha</p>
-        </div>
-        <div class="question-card">
-            <h2 class="form-question">Série, filme ou anime?</h2>
-            <img src="images/profile-images/media/fullmetal-alchemist.jpg" alt="Media Image">
-            <p class="media">FMA:Brotherhood</p>
+    <div class="membros container">
+        <h2>MEMBROS DA AIRSOFT!</h2>
+        <h3>Veja agora os membros mais lindos do nosso grupo!</h3>
+        <div class="membros grid-layout">
+            <div class="circle-image">
+                <img src="images/profile-images/aaron-inacio.jpg" alt="">
+                <div class="membros social-media">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/axel-fujita.jfif" alt="">
+                <div class="membros social-media">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/douglas-magalhaes.jpg" alt="">
+                <div class="membros social-media">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/gabriel-alberto.jpg" alt="">
+                <div class="membros social-media">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/gabriel-macchione.jpg" alt="">
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/gabriel-mascagni.jpg" alt="">
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/guilherme-gimenes.jpg" alt="">
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/henrique-nogueira.jpg" alt="">
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/joao-tsukamoto.jpg" alt="">
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/lucas-carvalho.jpg" alt="">
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/lucas-reis.jpg" alt="">
+            </div>
+            <div class="circle-image">
+                <img src="images/profile-images/lucas-santana.jpg" alt="">
+            </div>  
         </div>
     </div>
-
-    </section>
 
     <footer>
         <p>&copy; Vitor Rocha Cambuí - 2021</p>
     </footer>
-    </div>  
 
-<script src="script.js"></script>
-<script src="data.js"></script>
+<script src="js/index.js"></script>
+<script src="js/membros.js"></script>
 </body>
 </html>
